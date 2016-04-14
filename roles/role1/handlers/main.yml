@@ -1,0 +1,4 @@
+---
+- name: print role1
+  debug:
+    var: print

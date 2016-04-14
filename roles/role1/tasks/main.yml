@@ -1,0 +1,8 @@
+---
+- debug:
+    var: print
+
+- command: "ls"
+  notify:
+    - print role1
+    - print role2
